@@ -1,0 +1,8 @@
+To start the application with out installing it
+node main.js > stdout.txt 2> stderr.txt &
+
+To install the application 
+copy mqtt2csv.service to /etc/systemd/system
+systemctl start mqtt2csv # to ensure that it starts fine and fix any issues 
+systemctl enable mqtt2csv.service
+
