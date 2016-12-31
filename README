@@ -1,3 +1,5 @@
+WARNING !!! Working code but still under cleanup to generalize. use at your own risk till this notice is removed :) 
+
 Description : 
 This a simple nodejs script that can take json sent to a mqtt topic and persist it into a csv file. and this automatically runs as a headless service on system start. It is not really complicated enough to deserve a github project but I found it cumbersome to get all the pieces working as a ubuntu linux service so felt that some one else who might be trying to do the same might benefit from it. 
 
