@@ -1,8 +1,14 @@
 To start the application with out installing it
 node main.js > stdout.txt 2> stderr.txt &
 
-To install the application 
+To install the application as a service in ubuntu 
 copy mqtt2csv.service to /etc/systemd/system
 systemctl start mqtt2csv # to ensure that it starts fine and fix any issues 
 systemctl enable mqtt2csv.service
+
+To test 
+Run tail -f file.csv to start monitoring the csv file 
+Send some events to mqtt server topic to see the output displayed in terminal by tail command (also saved to csv file )
+
+
 
